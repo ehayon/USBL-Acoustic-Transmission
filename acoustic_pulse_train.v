@@ -27,7 +27,7 @@ module acoustic_pulse_train(
 reg [10:0] cntr_q, cntr_d;
 reg [26:0] sleep_q, sleep_d;
 
-reg [26:0]compare = 'd100000000;
+reg [26:0]compare = 'd99996615;
 
 always @(cntr_q) begin
 	cntr_d = cntr_q + 1'b1;
@@ -35,7 +35,7 @@ always @(cntr_q) begin
 	/* reset counter if > 2500 */
 	if(cntr_d > 'd1250) begin
 		cntr_d = 11'd0;
-	end		
+	end
 end
 
 always @(sleep_q) begin
