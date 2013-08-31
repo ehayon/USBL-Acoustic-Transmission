@@ -1,7 +1,7 @@
 Release 14.6 Drc P.68d (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Fri Aug 30 21:51:30 2013
+Fri Aug 30 22:11:28 2013
 
 drc -z mojo_top.ncd mojo_top.pcf
 

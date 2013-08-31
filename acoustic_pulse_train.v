@@ -40,7 +40,7 @@ end
 
 always @(sleep_q) begin
 	sleep_d = sleep_q + 1'b1;
-	/* manual overflow for sleep after 2s+2ms seconds */
+	/* manual overflow for sleep after 2s+2ms */
 	if(sleep_d > 'd100010000)
 		sleep_d = 27'd0;
 end

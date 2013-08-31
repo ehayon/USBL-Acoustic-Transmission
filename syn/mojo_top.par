@@ -1,7 +1,7 @@
 Release 14.6 par P.68d (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-ethanhayon-ubuntu-desktop::  Fri Aug 30 21:51:14 2013
+ethanhayon-ubuntu-desktop::  Fri Aug 30 22:11:14 2013
 
 par -w -intstyle ise -ol high -mt off mojo_top_map.ncd mojo_top.ncd
 mojo_top.pcf 
@@ -88,8 +88,8 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 3 secs 
-Finished initial Timing Analysis.  REAL time: 3 secs 
+Starting initial Timing Analysis.  REAL time: 4 secs 
+Finished initial Timing Analysis.  REAL time: 4 secs 
 
 WARNING:Par:288 - The signal spi_sck_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal avr_rx_busy_IBUF has no load.  PAR will not attempt to route this signal.
@@ -122,7 +122,7 @@ Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL 
 
 Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 5 secs 
 Total REAL time to Router completion: 5 secs 
-Total CPU time to Router completion: 4 secs 
+Total CPU time to Router completion: 5 secs 
 
 Partition Implementation Status
 -------------------------------

@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:07:37 MDT 2013
+# Start of session at: Fri Aug 30 22:12:48 2013
+# Process ID: 9072
+# Log file: /home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/planAhead_run_1/planAhead.log
+# Journal file: /home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/pa.fromNetlist.tcl
+# create_project -name AcousticPulseTrain -dir "/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/planAhead_run_1" -part xc6slx9tqg144-2
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2669.590 ; gain = 23.020
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/mojo_top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/src/mojo.ucf" [current_fileset -constrset]
+Adding file '/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/src/mojo.ucf' to fileset 'constrs_1'
+# add_files [list {/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/src/mojo.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9tqg144-2
+Release 14.6 - ngc2edif P.68d (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.6 - ngc2edif P.68d (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design mojo_top.ngc ...
+WARNING:NetListWriters:298 - No output is written to mojo_top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file mojo_top.edif ...
+ngc2edif: Total memory usage is 104288 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/AcousticPulseTrain.data/cache/mojo_top_ngc_1e275c95.edif]
+Finished Parsing EDIF File [./planAhead_run_1/AcousticPulseTrain.data/cache/mojo_top_ngc_1e275c95.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from /opt/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from /opt/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from /opt/Xilinx/14.6/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.6/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/src/mojo.ucf]
+Finished Parsing UCF File [/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/src/mojo.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 458c7d7c
+link_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 2863.223 ; gain = 178.984

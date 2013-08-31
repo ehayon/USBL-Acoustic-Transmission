@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:07:37 MDT 2013
+# Start of session at: Fri Aug 30 22:12:48 2013
+# Process ID: 9072
+# Log file: /home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/planAhead_run_1/planAhead.log
+# Journal file: /home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/pa.fromNetlist.tcl
