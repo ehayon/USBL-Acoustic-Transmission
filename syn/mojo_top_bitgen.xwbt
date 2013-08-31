@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/mojo_top.ncd
+OUTFILE=/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn/mojo_top.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=/home/ethan/Dropbox/Code/FPGA/AcousticPulseTrain/syn
+LICENSE=WebPack
+USER_INFO=210786765_0_0_258

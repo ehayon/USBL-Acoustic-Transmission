@@ -1,0 +1,3 @@
+verilog work "../wave.v"
+verilog work "../acoustic_pulse_train.v"
+verilog work "../src/mojo_top.v"
