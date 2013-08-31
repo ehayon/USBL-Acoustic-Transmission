@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Ethan Hayon
 // 
 // Create Date:    19:46:30 08/30/2013 
-// Design Name: 
+// Design Name: 	
 // Module Name:    acoustic_pulse_train 
-// Project Name: 
-// Target Devices: 
+// Project Name:   Perseus II
+// Target Devices: Mojo FPGA
 // Tool versions: 
-// Description: 
+// Description:    This will generate 2ms burst of 40KHz square wave, then delay 2s before sending another pulse, so on...
 //
 // Dependencies: 
 //
